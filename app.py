@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 maladies_db = {
     "paludisme": (
         "Le paludisme est une maladie transmise par les moustiques. Ses"
