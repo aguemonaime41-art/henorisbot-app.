@@ -66,15 +66,15 @@ if menu == "1. Informations sur les maladies":
   ).lower()
   if choix in maladies_db:
     st.success(maladies_db[choix])
-elif menu == "2. Comprendre les symptômes":
+elif  menu == "2. Comprendre les symptômes":
   choix = st.text_input(
       "Quel symptôme ? (ex: fievre, toux, fatigue)"
   ).lower()
-  if choix in symptomes_db:
+  if choix in  symptomes_db:
     st.success(symptomes_db[choix])
-elif menu == "3. Conseils de prévention":
+elif  menu == "3. Conseils de prévention":
   choix = st.text_input(
       "Quel sujet de prévention ? (ex: hygiene, eau, moustique)"
   ).lower()
-  if choix in prevention_db:
+  if  choix in prevention_db:
     st.success(prevention_db[choix])
